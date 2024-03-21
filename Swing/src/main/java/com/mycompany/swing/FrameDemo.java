@@ -9,5 +9,6 @@ public class FrameDemo {
         frame.setSize(400, 300); 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  
         frame.setVisible(true);
+        frame.setLocation(200,50);
     }
 }
