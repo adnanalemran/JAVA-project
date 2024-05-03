@@ -3,17 +3,18 @@ package com.example.datatype;
 public class Main {
     public static void main(String[] args) {
 
-        boolean b;
-        char c;
+        boolean b = true;
+        char c = 'o';
         short s = 434;
         int i = 30; // dynamic init
         float f = 10.2f;
         double d = 10.3;
-        b = true;
-        System.out.println("b is " + b);
-        c = 'a';
-        System.out.println("c is " + c);
+
+        System.out.printf("boolean b is = %b ", b);
+        System.out.printf("c is %c \n", c);
         System.out.println("i is " + i);
-        System.out.println(s +"\n"+ f +"\n"+ d);
+        System.out.println(s);
+        System.out.println(f);
+        System.out.println(d);
     }
 }
